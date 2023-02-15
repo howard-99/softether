@@ -4,6 +4,8 @@
 # bash <(curl -Ls https://raw.githubusercontent.com/howard-99/softether/main/install-softether.sh)
 
 #bash <(curl -Ls https://raw.githubusercontent.com/howard-99/ir-mirror/main/centos7.sh)
+sudo systemctl stop firewalld
+sudo systemctl disable firewalld
 
 sudo yum install -y epel-release 
 sudo yum install -y vim wget unzip yum-utils htop nano certbot

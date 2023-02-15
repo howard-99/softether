@@ -1,5 +1,7 @@
 #**Installation of SoftEther v4.41-9782-beta for CentOS7&8
 #**The Below line could change the mirror of centos7 Only
+#** way to install =>
+# bash <(curl -Ls https://raw.githubusercontent.com/howard-99/softether/main/install-softether.sh)
 
 #bash <(curl -Ls https://raw.githubusercontent.com/howard-99/ir-mirror/main/centos7.sh)
 

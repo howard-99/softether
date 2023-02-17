@@ -7,7 +7,10 @@
 
 sudo systemctl stop firewalld
 sudo systemctl disable firewalld
-sudo yum update -y
+
+#sudo yum update -y
+#sudo yum install -y certbot
+
 sudo yum install -y epel-release 
 sudo yum install -y vim wget unzip yum-utils htop nano
 sudo yum group install -y "Development Tools" 

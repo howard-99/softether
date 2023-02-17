@@ -7,6 +7,8 @@ wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.41
 tar xvf softether-vpnserver-*
 cd vpnserver && make
 
+mkdir /etc/init.d/
+
 cd /etc/init.d/
 wget https://raw.githubusercontent.com/howard-99/softether/main/vpnserver
 

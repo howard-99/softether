@@ -1,5 +1,5 @@
 yum -y update
-yum -y install epel-release wget nano htop
+yum -y install epel-release wget nano
 yum -y groupinstall "Development Tools"
 cd /usr/local/
 wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.41-9782-beta/softether-vpnserver-v4.41-9782-beta-2022.11.17-linux-x64-64bit.tar.gz
